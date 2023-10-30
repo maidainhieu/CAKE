@@ -1,0 +1,68 @@
+/* GLOBAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 16px;
+    /* 1rem - 16px */
+    /* Neu khong khai bao font-size, khi do 1 rem mac dinh la 16px */
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #212529;
+    background-color: white;
+    letter-spacing: 1px;
+}
+
+/* HEADER */
+header{
+    background-color: #4e2a84
+}
+.header__content{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+}
+
+
+.header__content ul{
+    list-style: none;
+}
+
+.header__content a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    /* transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 0s ;
+    transition-timing-function: linear; */
+    transition: all 1s;
+}
+
+.header__content li{
+    display: inline;
+    margin: 0 1rem;
+}
+
+.header__content a:hover{
+    color: #ff0e83 ;
+}
+
+.header__content .active{
+    color: #ff0e83 ;
+}
+
+.header__content p{
+    color: white;
+    font-size: 2.3rem ;
+}
